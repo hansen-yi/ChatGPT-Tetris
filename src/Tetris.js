@@ -32,20 +32,23 @@ const Tetris = () => {
   const [currPieceType, setCurrPieceType] = useState(1);
 
   const [clearRowSound] = useState(() => {
-    const audio = new Audio('/clear.mp3');
+    // const audio = new Audio('/clear.mp3');
+    const audio = new Audio('https://raw.githubusercontent.com/hansen-yi/ChatGPT-Tetris/master/public/clear.mp3');
     audio.volume = 0.25; // Adjust volume here (0.0 to 1.0)
     return audio;
   });
 
   const [setPieceSound] = useState(() => {
-    const audio = new Audio('/set.mp3');
+    // const audio = new Audio('/set.mp3');
+    const audio = new Audio('https://raw.githubusercontent.com/hansen-yi/ChatGPT-Tetris/master/public/set.mp3');
     audio.volume = 0.5; // Adjust volume here (0.0 to 1.0)
     return audio;
   });
 
   const [audioStarted, setAudioStarted] = useState(false);
   const [backgroundMusic] = useState(() => {
-    const audio = new Audio('/background-music.wav');
+    // const audio = new Audio('/background-music.wav');
+    const audio = new Audio('https://raw.githubusercontent.com/hansen-yi/ChatGPT-Tetris/master/public/background-music.wav');
     audio.volume = 0.2;
     audio.loop = true;
     return audio;
