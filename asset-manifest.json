@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ChatGPT-Tetris/static/css/main.b9f0be43.css",
-    "main.js": "/ChatGPT-Tetris/static/js/main.27c0e447.js",
+    "main.js": "/ChatGPT-Tetris/static/js/main.198a1632.js",
     "static/media/background.png": "/ChatGPT-Tetris/static/media/background.afba66830f09a763770a.png",
     "static/media/cube.jpg": "/ChatGPT-Tetris/static/media/cube.386a60f2c83ccb370609.jpg",
     "index.html": "/ChatGPT-Tetris/index.html",
     "main.b9f0be43.css.map": "/ChatGPT-Tetris/static/css/main.b9f0be43.css.map",
-    "main.27c0e447.js.map": "/ChatGPT-Tetris/static/js/main.27c0e447.js.map"
+    "main.198a1632.js.map": "/ChatGPT-Tetris/static/js/main.198a1632.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f0be43.css",
-    "static/js/main.27c0e447.js"
+    "static/js/main.198a1632.js"
   ]
 }
